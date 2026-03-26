@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>us1rok</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="preloader">
+        <div class="preloader-bg"></div>
+        <img src="img/ava.png" alt="avatar" class="preloader-avatar">
+    </div>
+    <div class="background-blur"></div>
+    <div class="container">
+        <div class="profile-card glass">
+            <div class="cover-img"></div>
+            <div class="profile-info">
+                <img src="img/ava.png" alt="avatar" class="avatar">
+                <h1 class="profile-title">us1rok</h1>
+            </div>
+        </div>
+        
+        <div class="links-row">
+            <a class="glass link-btn" href="https://yougame.biz/userok/" target="_blank">
+                <span>Yougame</span>
+            </a>
+            <button class="glass link-btn" id="discord-btn">
+                <span>Discord</span>
+            </button>
+        </div>
+        <div class="player glass">
+            <div class="player-top">
+                <span class="volume">&#128266;</span>
+                <span class="track-title">i like the way you kiss me</span>
+            </div>
+            <div class="player-controls">
+                <span class="current-time">00:01</span>
+                <input type="range" min="0" max="152" value="1" class="seek-bar">
+                <span class="duration">02:32</span>
+            </div>
+            <div class="player-buttons">
+                <button class="prev">&#9198;</button>
+                <button class="play">&#9654;</button>
+                <button class="next">&#9197;</button>
+            </div>
+            <audio id="audio" src="img/muz2.mp3"></audio>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
